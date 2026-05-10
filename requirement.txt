@@ -1,0 +1,1 @@
+pip freeze | grep -E 'pandas|numpy|geopandas|xgboost|shap|scikit|imbalanced|libpysal|esda|matplotlib|scipy|statsmodels|pyarrow|openpyxl|joblib|requests|tqdm' > requirements.txt
